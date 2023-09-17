@@ -1,0 +1,71 @@
+.home{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.photo img {
+    width: 30%; 
+    height: auto;
+  }
+  
+.home-text{
+    color: whitesmoke;
+}
+
+.aws img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.git img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.sql img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.css img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.csharp img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.docker img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.html img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+
+}
+
+.javascript img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
+
+.mongodb img{
+    border-style: dashed;
+    width: 10%;
+    height: auto;
+}
