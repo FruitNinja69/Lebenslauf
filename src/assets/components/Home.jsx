@@ -1,21 +1,20 @@
 import React from 'react'
 import logo from '../../photos/logo.png'
-import  './components.css'
+import './components.css'
 
 export function Home() {
   return (
     <>
-    <div className="home">
-      <h1>Home</h1>
-      <div className="home-text">
-        <h2> Hallo meine Name ist Thikalvannan Vincent Robert</h2>
+      <div className="home" id="home">
+        <h1>Home</h1>
+        <div className="home-text">
+          <h2> Hallo meine Name ist Thikalvannan Vincent Robert</h2>
+        </div>
+        <div className="photo">
+          <img src={logo} alt="Logo" />
+        </div>
       </div>
-      <div className="photo">£
-        <img src={logo} alt="Logo" />
-      </div>
-    </div>
     </>
-    
   )
 }
 

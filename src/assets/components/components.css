@@ -11,61 +11,118 @@
     height: auto;
   }
   
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20rem;
+}
+.about-img{
+    min-width: 30%; 
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+}
+
 .home-text{
     color: whitesmoke;
 }
 
-.aws img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.about-text{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
 }
 
-.git img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.personal-text{
+    text-align: left;
 }
 
-.sql img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.meta-informations{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.css img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.school-information{
+    text-align: left;
+    list-style: none;
+    margin-left: 3rem;
 }
 
-.csharp img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+
+ .personal-information{
+    text-align: left;
+    list-style: none;
+ } 
+
+ .school-information h3,  .personal-information h3{
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+ }
+
+
+ .skills {
+    padding: 5rem 0;
+    background-color: rgb(7, 1, 78);
 }
 
-.docker img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.icon-grid {
+    --site-length: 14rem;
+    --grid-size: 6;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(var(--grid-size), var(--site-length));
+    grid-template-rows: repeat(var(2), var(--site-length));
+    place-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
-.html img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
-
+.tool-icon {
+    --icon-size: 75%;
+    background-color: #c8c8c8;
+    width: var(--icon-size);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: rotate 200ms;
 }
 
-.javascript img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.tool-icon:hover {
+    scale: 1.1;
 }
 
-.mongodb img{
-    border-style: dashed;
-    width: 10%;
-    height: auto;
+.tool-icon > svg {
+    width: var(--icon-size);
+    aspect-ratio: 1/1;
+}
+
+.portfolio {
+    padding: 5rem 0;
+    background-color: white
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.portfolio-title{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact{
+    background-color: rgb(0, 0, 131);
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
