@@ -4,6 +4,7 @@ import { Home } from './assets/components/Home'
 import { Contact } from './assets/components/Contact'
 import { Portfolio } from './assets/components/Portfolio'
 import { About } from './assets/components/About'
+import { Footer } from './assets/components/Footer'
 import './App.css'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Portfolio></Portfolio>
+      <Footer></Footer>
       <Contact></Contact>
     </>
   )
