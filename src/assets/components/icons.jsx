@@ -1,9 +1,10 @@
-import { Github, Mail, Phone } from 'lucide-react'
+import { Github, Instagram, Mail, Phone } from 'lucide-react'
 
 export const Icons = {
   mail: Mail,
   githubIcon: Github,
   phone: Phone,
+  instragramm: Instagram,
   javascript: () => (
     <svg viewBox="0 0 128 128">
       <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"></path>
