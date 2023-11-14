@@ -16,6 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-left: 20rem;
+    background-color: white
 }
 .about-img{
     min-width: 30%; 
@@ -130,7 +131,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; 
+    height: 50vh; 
     background-color: #f8f8f8;
   }
   
@@ -141,6 +142,10 @@
   
   .items h4 {
     margin-left: 10px; 
+  }
+  .items p {
+    text-align: center; /* Center the paragraph text */
+    margin-top: 10px; /* Add some spacing above the paragraph */
   }
   
   .items svg {
@@ -156,6 +161,7 @@
     word-wrap: break-word;
     white-space: nowrap;
     animation: typing 4s steps(48) forwards;
+    font-size: 1.5rem;
   } 
   
   @keyframes typing {

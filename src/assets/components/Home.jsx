@@ -9,7 +9,7 @@ export function Home() {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
-    height: '100vh', // Set the height to 100vh
+    height: '100vh', 
   }
   return (
     <>

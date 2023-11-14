@@ -5,7 +5,7 @@ import { Contact } from './assets/components/Contact'
 import { Portfolio } from './assets/components/Portfolio'
 import { About } from './assets/components/About'
 import { Footer } from './assets/components/Footer'
-import Logo from './photos/logohome.png'
+
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="nav-items">
         <div className="Logo">
-          <img src={Logo} alt="Logo" />
+          <h1>Thikal</h1>
         </div>
         <div className="button">
           <a className="button-element" href="#home">
@@ -25,7 +25,7 @@ function App() {
           <a className="button-element" href="#portfolio">
             Portfolio
           </a>
-          <a className="button-element" href="#contact">
+          <a className="button-element" href="#footer">
             Contact
           </a>
         </div>
